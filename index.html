@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<style type="text/css">
+	body{
+		background-color: darkblue;
+	}
+	h1{
+		font-family: Arial;
+		font-style: oblique;
+		font-size: 100px;
+		color: #fff;
+	}
+	button{
+		font-family: Arial;
+		font-size: 30px;
+		text-align: center;
+	}
+	.conatainer{
+		margin-left: 425px;
+	}
+	.control{
+		margin-left: 110px;
+	}
+	</style>
+		<div class="conatainer">
+			<h1><p id="output"><b>0:00:00:00</b></p></h1>
+			<div class="control" id="controls">
+				<button id="startPause" onclick="startPause()"><b id="start">Start</b></button>
+				<button id="reset" onclick="reset()"><b id="reset">Reset</b></button>
+			</div>
+		</div>
+	<script src="script.js"></script>
+</body>
+</html>
